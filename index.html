@@ -64,7 +64,7 @@
               </h1>
             </li>
             <li>
-              <button type="button" class="order-button">Zamów usługę</button>
+              <button type="button" class="order-button modal-btn" data-modal-open>Zamów usługę</button>
             </li>
           </ul>
         </div>
@@ -133,26 +133,23 @@
             <li class="profession">
               <img
                 src="images/img.jpg"
-                alt="osoba pisząca na klawiaturze"
-                width="370"
-                height="294"
+                alt="osoba pisząca na klawiaturze"               
               />
+              <p class="profession-text">aplikacje komputerowe</p>
             </li>
             <li class="profession">
               <img
                 src="images/img(1).jpg"
-                alt="osoba trzyma telefon i sprawdza"
-                width="370"
-                height="294"
+                alt="osoba trzyma telefon i sprawdza"            
               />
+              <p class="profession-text">aplikacje mobilne</p>
             </li>
             <li class="profession">
               <img
                 src="images/img(2).jpg"
-                alt="osoba trzyma tablet na którym wyświetlona jest paleta kolorów"
-                width="370"
-                height="294"
+                alt="osoba trzyma tablet na którym wyświetlona jest paleta kolorów"              
               />
+              <p class="profession-text">rozwiązania graficzne</p>
             </li>
           </ul>
         </div>
@@ -428,5 +425,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
   </body>
 </html>

@@ -60,16 +60,25 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    margin-right: 46px;
+    margin-right: 46px; 
+
 }
-.header-menu:hover {
+.header-menu:hover,
+.header-menu:focus {
     color:#2196F3;
     text-decoration: none;
+    
 }
-.header-menu:focus{
-    color:#2196F3;
-    text-decoration: none;
+/*
+.header-menu:hover{
+    position: absolute;
+    bottom: 28px;
+    width: 53px;
+    height: 4px;
+    background: #2196F3;
+    border-radius: 2px;
 }
+*/
 /* kontakty w nagłówku */
 .header-contact{
     display: flex;
@@ -115,8 +124,6 @@ fill: #757575;
     color:#2196F3;
 }
 
-
-
 .contact{
     display: inline-flex;        
 }
@@ -127,8 +134,8 @@ fill: #757575;
     background-color:  #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-   display: flex;
-    }
+    display: flex;
+}
     
 .footer{
     display: flex;  
@@ -152,7 +159,7 @@ fill: #757575;
 }
 .last-letters{
     color: #FFFFFF;
-    }
+}
 .address{
     color: #FFFFFF;
     width: 247px;
@@ -162,7 +169,7 @@ fill: #757575;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    }
+}
 .e-mail-footer{
     color: rgba(255, 255, 255, 0.6);
     width: 231px;
@@ -173,7 +180,7 @@ fill: #757575;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
-    }
+}
 .phone-number-footer{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -184,7 +191,7 @@ fill: #757575;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    }
+}
 
 .social-link-title{
     font-weight: 700;
@@ -193,40 +200,40 @@ fill: #757575;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    }
+}
 
 .footer-social-list{
-        list-style: none;
-        display: flex;
-        justify-content: space-between; 
-        align-items: center;  
-        margin-top: 16px;   
-        padding: 0px; 
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    margin-top: 16px;   
+    padding: 0px; 
        
-    }
+ }
     
 .footer-social-icons{
-        width: 20px;
-        height: 20px;
-        align-items: center; 
-        fill: #FFFFFF;
-    }
+    width: 20px;
+    height: 20px;
+    align-items: center; 
+    fill: #FFFFFF;
+}
     
 .footer-social-links-item{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        width: 44px;
-        height: 44px;
-        background: rgba(255, 255, 255, 0.1);   
-        border-radius: 50%;
-        cursor: pointer;
-        margin-right: 10px;
-    }
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);   
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
 
-    .footer-social-links-item:hover{
-        background-color: #2196F3;  
-    }
+.footer-social-links-item:hover{
+    background-color: #2196F3;  
+}
 .footer-social-icons:hover{
     fill: #FFFFFF;
 }
@@ -239,7 +246,7 @@ fill: #757575;
     justify-content: center;
     margin: 0px;
     padding: 0px;
-    }
+}
 
 .filtr{
     background-color:#F5F4FA;
@@ -247,37 +254,37 @@ fill: #757575;
     border: 0px;
     cursor: pointer;
     margin-left: 8px;
-    }
+}
 
 .filtr:hover,
 .filtr:focus{
     background-color:#2196F3;
     color:  #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    }
+}
 
 
 /* rozmiary przycisków */
 .filtr1{
     width: 121px;
     height: 38px;
-    }
+}
 .filtr2{
     width: 93px;
     height: 38px;
-    }
+}
 .filtr3{
     width: 114px;
     height: 38px;
-    }
+}
 .filtr4{
     width: 91px;
     height: 38px;
-    }
+}
 .filtr5{
     width: 121px;
     height: 38px;
-    }
+}
 
 /* projekty/produkty */
 .project-list{
@@ -287,12 +294,12 @@ fill: #757575;
     padding: 0px;
     margin: 0px;
     justify-content: space-between;
-    }
+}
 
 .nav-button{
     margin-bottom: 50px;
-    
 }
+
 .name-product{
     display: flex;
     flex-direction: column;
@@ -301,19 +308,17 @@ fill: #757575;
 }
 .project{
     box-sizing: border-box;
-    
     border: 1px solid #EEEEEE;
     width: 370px;
     height: 404px;
     margin: 0px;
     padding: 0px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 .project:hover{
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-   }
+}
 
 .project-name{
     width: 322px;
@@ -325,7 +330,7 @@ fill: #757575;
     margin: 0px;
     padding: 0px;
     padding-bottom: 4px;
-    }
+}
 .filtr-name{
     color: #757575;
     width: 322px;
@@ -336,7 +341,7 @@ fill: #757575;
     letter-spacing: 0.03em;
     margin: 0px;
     padding: 0px;
-    }
+}
 
 
     /* sekcja "efektywne rozwiązania */
@@ -374,7 +379,7 @@ fill: #757575;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    }
+}
 
 
 .order-button{
@@ -394,7 +399,7 @@ fill: #757575;
     color:#FFFFFF;
     cursor: pointer;
     padding: 0px;   
-    }
+}
 
 
 /*lorem list nasze atuty*/
@@ -406,7 +411,7 @@ fill: #757575;
     padding: 0px;
     margin: 0px;
     margin-bottom: 30px;
-    }  
+}  
 
 
 .assets-icons{
@@ -418,7 +423,7 @@ fill: #757575;
     cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
-    }
+}
 
 .icons:hover{
     fill:#2196F3;
@@ -466,15 +471,45 @@ fill: #757575;
 }
 
 .photo-profession{
-    list-style-type: none;
-    mix-blend-mode: normal;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0px;
     margin: 0px;
+    list-style-type: none;      
+}
+.profession{
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+}
     
+    
+
+
+.profession-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 370px;
+    height: 70px;    
+    background: rgba(47, 48, 58, 0.8);  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;        
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
+.profession > .profession-text{
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0px;
+    right: 0px;
+    padding: 0px;
+}
 /* sekcja "Nasz zespół" */
 
 .team-section{
@@ -504,7 +539,6 @@ fill: #757575;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin: 0px;
-
 }
 .name-and-position {
     display: flex;
@@ -518,8 +552,7 @@ fill: #757575;
     letter-spacing: 0.03em;
     margin: 0px;
     padding-bottom: 10px;
-    padding-top: 30px;
-    
+    padding-top: 30px;    
 }
 .position{
     font-size: 16px;
@@ -543,8 +576,7 @@ fill: #757575;
     width: 20px;
     height: 20px;
     align-items: center; 
-    fill: #AFB1B8;
-    
+    fill: #AFB1B8;    
 }
 
 .social-links-item{
@@ -555,7 +587,7 @@ fill: #757575;
     height: 44px;    
     border-radius: 50%;
     cursor: pointer;
-    }
+}
 
 .social-links-item:hover{
     background-color: #2196F3;     
@@ -563,12 +595,6 @@ fill: #757575;
 .social-links-item:hover svg{
     fill: #FFFFFF;
 }
-
-
-
-
-  
-
 
 
 /* sekcja nasi klienci */
@@ -580,7 +606,7 @@ fill: #757575;
     letter-spacing: 0.03em;
     margin: 0px;
     margin-bottom: 50px;
-   }
+}
 
 .customer-list{
     list-style: none;
@@ -611,3 +637,30 @@ fill: #757575;
     fill:#2196F3;
 }
 
+/*okno modalne*/
+.backdrop {
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    width: 528px;
+    min-height: 581px;
+}
+.close-btn{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px
+}
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
