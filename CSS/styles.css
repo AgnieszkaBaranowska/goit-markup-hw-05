@@ -44,6 +44,7 @@ body{
     letter-spacing: 0.03em;
 }
 /* nawigacja w nagłówku */
+
 .list-menu{
     list-style: none;
     display: flex;
@@ -60,25 +61,30 @@ body{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    margin-right: 46px; 
-
 }
+.nav-menu{
+    margin-right: 46px;
+    
+}
+
 .header-menu:hover,
 .header-menu:focus {
     color:#2196F3;
     text-decoration: none;
+}
+.active::after{
+    content: "";
+    border: 4px solid #2196F3;
+    border-radius: 2px;
+    display: block;
+}
+.nav-menu > .active::after{
+    position: relative;
+    top: 28px;
+    
     
 }
-/*
-.header-menu:hover{
-    position: absolute;
-    bottom: 28px;
-    width: 53px;
-    height: 4px;
-    background: #2196F3;
-    border-radius: 2px;
-}
-*/
+
 /* kontakty w nagłówku */
 .header-contact{
     display: flex;
@@ -420,7 +426,6 @@ fill: #757575;
     justify-content: center;
     align-items: center;
     display: flex;
-    cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
 }
