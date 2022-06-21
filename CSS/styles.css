@@ -346,9 +346,6 @@ fill: #757575;
     width: 100%;
     padding-bottom: 20px;
     padding-left: 24px;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
 }
 
 .project-name{
@@ -389,6 +386,7 @@ fill: #757575;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     padding-left: 24px;
+    padding-right: 24px;
     margin: 0px;
     padding-top: 49px;
 }
