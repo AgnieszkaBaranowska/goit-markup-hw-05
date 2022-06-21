@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@AgnieszkaBaranowska 
+AgnieszkaBaranowska
+/
+goit-markup-hw-05
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+goit-markup-hw-05/CSS/styles.css
+@AgnieszkaBaranowska
+AgnieszkaBaranowska added animation
+Latest commit 3d44096 19 hours ago
+ History
+ 1 contributor
+776 lines (688 sloc)  14.2 KB
+
 body{
     font-family: 'Roboto';
     font-style: normal;
@@ -331,8 +360,11 @@ fill: #757575;
     
 }
 .project{
+    position: relative;
     width: 370px;
+    height: 294px;
     margin: 0px;
+    overflow: hidden;
  }
     
 
@@ -411,8 +443,8 @@ fill: #757575;
 }
 .overlay{
     position: absolute;
-    bottom: 0;
-    right: 0;
+   top: 0;
+   left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(33, 150, 243, 0.9);;
@@ -772,5 +804,4 @@ fill: #757575;
     height: 11px;
     fill: #000;
 }
-
 
