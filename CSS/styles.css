@@ -714,6 +714,10 @@ fill: #757575;
     width: 100vw;
     height:100vh;
     background: rgba(0, 0, 0, 0.2);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: opacity, transform;
+    opacity: 100%; 
 }
 .modal{   
     position: absolute;
@@ -729,9 +733,7 @@ fill: #757575;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: opacity, transform;
     opacity: 100%; 
-    
 }
-
 
 
 .close-btn{
@@ -747,6 +749,11 @@ fill: #757575;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.close-btn:hover{
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden{
     opacity: 0;
